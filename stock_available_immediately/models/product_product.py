@@ -3,18 +3,20 @@
 # Copyright 2016 Sodexis
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from odoo import models, api
+from odoo import api, models
 
 
 class ProductProduct(models.Model):
     _inherit = 'product.product'
 
     @api.multi
-    @api.depends('virtual_available', 'incoming_qty')
-    def _compute_immediately_usable_qty(self):
-        """Ignore the incoming goods in the quantity available to promise
+    def _compute_available_quantities_dict(self):
+        res = super(ProductProduct, self)._compute_available_quantities_dict()
+        for product in self:
+            res[product.id]['immediately_usable_qty'] -= \
+                product.incoming_qty
+        return res
 
-        This is the same implementation as for templates."""
-        super(ProductProduct, self)._compute_immediately_usable_qty()
-        for prod in self:
-            prod.immediately_usable_qty -= prod.incoming_qty
+    @api.depends('virtual_available', 'incoming_qty')
+    def _compute_available_quantities(self):
+        super(ProductProduct, self)._compute_available_quantities()
