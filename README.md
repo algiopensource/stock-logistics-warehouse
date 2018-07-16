@@ -25,16 +25,19 @@ addon | version | summary
 --- | --- | ---
 [account_move_line_product](account_move_line_product/) | 10.0.1.0.0 | Displays the product in the journal entries and items
 [account_move_line_stock_info](account_move_line_stock_info/) | 10.0.1.0.0 | Account Move Line Stock Move
-[packaging_uom](packaging_uom/) | 10.0.1.0.0 | Use uom in package
+[packaging_uom](packaging_uom/) | 10.0.1.0.1 | Use uom in package
 [procurement_auto_create_group](procurement_auto_create_group/) | 10.0.1.0.0 | Allows to configure the system to propose automatically new procurement groups in procurement orders.
-[purchase_packaging](purchase_packaging/) | 10.0.1.0.0 | In purchase, use package
-[sale_packaging](sale_packaging/) | 10.0.1.0.0 | In sale, use uom's package
+[purchase_packaging](purchase_packaging/) | 10.0.1.0.4 | In purchase, use package
+[sale_packaging](sale_packaging/) | 10.0.1.0.1 | In sale, use uom's package
+[stock_account_change_product_valuation](stock_account_change_product_valuation/) | 10.0.1.0.0 | Adjusts valuation of the products and quants when the cost method or type of a product changes
+[stock_account_quant_merge](stock_account_quant_merge/) | 10.0.1.0.0 | extension of 'stock_quant_merge', and adds the cost as a criteria to merge quants.
 [stock_available](stock_available/) | 10.0.1.0.1 | Stock available to promise
 [stock_available_immediately](stock_available_immediately/) | 10.0.1.0.0 | Ignore planned receptions in quantity available to promise
 [stock_available_sale](stock_available_sale/) | 10.0.1.0.0 | Quotations in quantity available to promise
-[stock_available_unreserved](stock_available_unreserved/) | 10.0.1.0.0 | Quantity of stock available for immediate use
+[stock_available_unreserved](stock_available_unreserved/) | 10.0.1.0.1 | Quantity of stock available for immediate use
 [stock_change_qty_reason](stock_change_qty_reason/) | 10.0.1.0.0 | Stock Quantity Change Reason
-[stock_demand_estimate](stock_demand_estimate/) | 10.0.1.0.0 | Allows to create demand estimates.
+[stock_cycle_count](stock_cycle_count/) | 10.0.1.0.0 | Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.
+[stock_demand_estimate](stock_demand_estimate/) | 10.0.1.1.0 | Allows to create demand estimates.
 [stock_inventory_chatter](stock_inventory_chatter/) | 10.0.1.0.0 | Log changes being done in Inventory Adjustments
 [stock_inventory_discrepancy](stock_inventory_discrepancy/) | 10.0.1.0.0 | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
 [stock_inventory_exclude_sublocation](stock_inventory_exclude_sublocation/) | 10.0.1.0.0 | Allow to perform inventories of a location without including its child locations.
@@ -42,7 +45,8 @@ addon | version | summary
 [stock_inventory_preparation_filter](stock_inventory_preparation_filter/) | 10.0.1.0.0 | More filters for inventory adjustments
 [stock_inventory_revaluation](stock_inventory_revaluation/) | 10.0.1.0.0 | Introduces inventory revaluation as single point to change the valuation of products.
 [stock_inventory_verification_request](stock_inventory_verification_request/) | 10.0.1.0.0 | Adds the capability to request a Slot Verification when a inventory is Pending to Approve
-[stock_mts_mto_rule](stock_mts_mto_rule/) | 10.0.1.0.0 | Add a MTS+MTO route
+[stock_lot_sale_tracking](stock_lot_sale_tracking/) | 10.0.1.0.0 | This addon allows to retrieve all customer deliveries impacted by a lot
+[stock_mts_mto_rule](stock_mts_mto_rule/) | 10.0.1.0.1 | Add a MTS+MTO route
 [stock_operation_package_mandatory](stock_operation_package_mandatory/) | 10.0.1.0.0 | Makes destination package mandatory on stock pack operations
 [stock_orderpoint_automatic_creation](stock_orderpoint_automatic_creation/) | 10.0.1.0.0 | Stock Orderpoint Automatic Creation
 [stock_orderpoint_manual_procurement](stock_orderpoint_manual_procurement/) | 10.0.1.0.0 | Allows to create procurement orders from orderpoints instead of relying only on the scheduler.
@@ -52,6 +56,7 @@ addon | version | summary
 [stock_quant_manual_assign](stock_quant_manual_assign/) | 10.0.1.0.0 | Stock - Manual Quant Assignment
 [stock_quant_merge](stock_quant_merge/) | 10.0.1.0.0 | Stock - Quant merge
 [stock_quant_reserved_qty_uom](stock_quant_reserved_qty_uom/) | 10.0.1.0.0 | Stock Quant Reserved Qty UoM
+[stock_removal_location_by_priority](stock_removal_location_by_priority/) | 10.0.1.0.0 | Establish a removal priority on stock locations.
 [stock_reserve](stock_reserve/) | 10.0.1.0.0 | Stock reservations on products
 [stock_warehouse_orderpoint_stock_info](stock_warehouse_orderpoint_stock_info/) | 10.0.1.0.0 | Stock Warehouse Orderpoint Stock Info
 [stock_warehouse_orderpoint_stock_info_unreserved](stock_warehouse_orderpoint_stock_info_unreserved/) | 10.0.1.0.0 | Stock Warehouse Orderpoint Stock Info Unreserved
