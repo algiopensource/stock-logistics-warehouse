@@ -1,22 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * stock_traceability_operation
-# 
+#
 # Translators:
 # OCA Transbot <transbot@odoo-community.org>, 2016
-# Paolo Valier <paolo.valier@hotmail.it>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-18 18:31+0000\n"
-"PO-Revision-Date: 2017-01-18 18:31+0000\n"
-"Last-Translator: Paolo Valier <paolo.valier@hotmail.it>, 2017\n"
+"POT-Creation-Date: 2017-06-30 01:20+0000\n"
+"PO-Revision-Date: 2017-06-30 01:20+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2016\n"
 "Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: stock_traceability_operation
@@ -172,7 +171,7 @@ msgstr "Prodotto"
 #. module: stock_traceability_operation
 #: model:ir.model,name:stock_traceability_operation.model_product_template
 msgid "Product Template"
-msgstr ""
+msgstr "Modello Prodotto"
 
 #. module: stock_traceability_operation
 #: field:report.stock.traceability_operation,product_uos:0
@@ -192,7 +191,7 @@ msgstr ""
 #. module: stock_traceability_operation
 #: model:ir.model,name:stock_traceability_operation.model_stock_quant
 msgid "Quants"
-msgstr ""
+msgstr "Quantità"
 
 #. module: stock_traceability_operation
 #: view:report.stock.traceability_operation:stock_traceability_operation.report_stock_traceability_operation_search
@@ -226,7 +225,7 @@ msgstr ""
 #: view:report.stock.traceability_operation:stock_traceability_operation.report_stock_traceability_operation_search
 #: field:report.stock.traceability_operation,state:0
 msgid "Status"
-msgstr ""
+msgstr "Stato"
 
 #. module: stock_traceability_operation
 #: view:report.stock.traceability_operation:stock_traceability_operation.report_stock_traceability_operation_search
@@ -258,8 +257,8 @@ msgstr ""
 #: help:report.stock.traceability_operation,operation_id:0
 msgid ""
 "The operation on which this part of the traceability is based. When this "
-"field is empty, this part of the traceability is directly based on the Stock"
-" Move."
+"field is empty, this part of the traceability is directly based on the Stock "
+"Move."
 msgstr ""
 
 #. module: stock_traceability_operation

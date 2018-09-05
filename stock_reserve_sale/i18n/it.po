@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * stock_reserve_sale
-# 
+#
 # Translators:
 # Paolo Valier, 2016
 # Paolo Valier, 2016
@@ -9,22 +9,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stock-logistics-warehouse (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 07:36+0000\n"
-"PO-Revision-Date: 2017-02-17 15:46+0000\n"
+"POT-Creation-Date: 2017-05-30 01:25+0000\n"
+"PO-Revision-Date: 2017-05-30 10:13+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
-"Language-Team: Italian (http://www.transifex.com/oca/OCA-stock-logistics-warehouse-8-0/language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/oca/OCA-stock-logistics-"
+"warehouse-8-0/language/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: stock_reserve_sale
 #: view:sale.stock.reserve:stock_reserve_sale.view_sale_stock_reserve_form
 msgid ""
 "A stock reservation will be created for the products\n"
-"                        of the selected quotation lines. If a validity date is specified,\n"
-"                        the reservation will be released once the date has passed."
+"                        of the selected quotation lines. If a validity date "
+"is specified,\n"
+"                        the reservation will be released once the date has "
+"passed."
 msgstr ""
 
 #. module: stock_reserve_sale
@@ -56,7 +59,7 @@ msgid "Cancel"
 msgstr "Annulla"
 
 #. module: stock_reserve_sale
-#: code:addons/stock_reserve_sale/model/sale.py:197
+#: code:addons/stock_reserve_sale/model/sale.py:198
 #, python-format
 msgid "Configuration Error!"
 msgstr ""
@@ -82,8 +85,8 @@ msgid "Display Name"
 msgstr "Nome da visualizzare"
 
 #. module: stock_reserve_sale
-#: code:addons/stock_reserve_sale/model/sale.py:219
-#: code:addons/stock_reserve_sale/model/sale.py:231
+#: code:addons/stock_reserve_sale/model/sale.py:220
+#: code:addons/stock_reserve_sale/model/sale.py:232
 #, python-format
 msgid "Error"
 msgstr "Error"
@@ -198,7 +201,7 @@ msgid "Sales Order Line"
 msgstr "Linea d'ordine di vendita"
 
 #. module: stock_reserve_sale
-#: code:addons/stock_reserve_sale/model/sale.py:232
+#: code:addons/stock_reserve_sale/model/sale.py:233
 #, python-format
 msgid ""
 "Several stock reservations are linked with the line. Impossible to adjust "
@@ -232,7 +235,7 @@ msgid "Validity Date"
 msgstr ""
 
 #. module: stock_reserve_sale
-#: code:addons/stock_reserve_sale/model/sale.py:220
+#: code:addons/stock_reserve_sale/model/sale.py:221
 #, python-format
 msgid ""
 "You cannot change the product or unit of measure of lines with a stock "

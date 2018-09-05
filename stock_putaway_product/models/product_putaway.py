@@ -28,14 +28,18 @@ class ProductPutawayStrategy(models.Model):
         required=True)
 
     @api.model
+    def _get_strategy_domain(self, putaway_strategy, product):
+        return [
+            ('putaway_id', '=', putaway_strategy.id),
+            ('product_product_id', '=', product.id),
+        ]
+
+    @api.model
     def putaway_apply(self, putaway_strategy, product):
         if putaway_strategy.method == 'per_product':
-            strategy_domain = [
-                ('putaway_id', '=', putaway_strategy.id),
-                ('product_product_id', '=', product.id),
-            ]
             for strategy in putaway_strategy.product_location_ids.search(
-                    strategy_domain, limit=1):
+                    self._get_strategy_domain(putaway_strategy, product),
+                    limit=1):
                 return strategy.fixed_location_id.id
         else:
             return super(ProductPutawayStrategy, self).putaway_apply(
@@ -59,7 +63,7 @@ class FixedPutawayStrat(models.Model):
 
     putaway_id = fields.Many2one(
         comodel_name='product.putaway',
-        sting='Put Away Method',
+        string='Put Away Method',
         required=True,
         select=True)
     product_template_id = fields.Many2one(

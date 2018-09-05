@@ -1,21 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * stock_traceability_operation
-# 
+#
 # Translators:
 # OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-07 07:41+0000\n"
-"PO-Revision-Date: 2017-01-07 07:41+0000\n"
+"POT-Creation-Date: 2017-08-22 01:01+0000\n"
+"PO-Revision-Date: 2017-08-22 01:01+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2016\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/oca/teams/23907/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/oca/teams/23907/"
+"zh_CN/)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: stock_traceability_operation
@@ -84,7 +85,7 @@ msgstr "显示名称"
 #: view:report.stock.traceability_operation:stock_traceability_operation.report_stock_traceability_operation_search
 #: selection:report.stock.traceability_operation,state:0
 msgid "Done"
-msgstr ""
+msgstr "已完成"
 
 #. module: stock_traceability_operation
 #: field:report.stock.traceability_operation,date_expected:0
@@ -166,12 +167,12 @@ msgstr ""
 #: view:report.stock.traceability_operation:stock_traceability_operation.report_stock_traceability_operation_search
 #: field:report.stock.traceability_operation,product_id:0
 msgid "Product"
-msgstr ""
+msgstr "产品"
 
 #. module: stock_traceability_operation
 #: model:ir.model,name:stock_traceability_operation.model_product_template
 msgid "Product Template"
-msgstr ""
+msgstr "产品模板"
 
 #. module: stock_traceability_operation
 #: field:report.stock.traceability_operation,product_uos:0
@@ -191,7 +192,7 @@ msgstr ""
 #. module: stock_traceability_operation
 #: model:ir.model,name:stock_traceability_operation.model_stock_quant
 msgid "Quants"
-msgstr ""
+msgstr "源"
 
 #. module: stock_traceability_operation
 #: view:report.stock.traceability_operation:stock_traceability_operation.report_stock_traceability_operation_search
@@ -203,7 +204,7 @@ msgstr ""
 #: view:report.stock.traceability_operation:stock_traceability_operation.report_stock_traceability_operation_tree
 #: field:report.stock.traceability_operation,picking_id:0
 msgid "Reference"
-msgstr ""
+msgstr "引用"
 
 #. module: stock_traceability_operation
 #: view:report.stock.traceability_operation:stock_traceability_operation.report_stock_traceability_operation_search
@@ -225,7 +226,7 @@ msgstr ""
 #: view:report.stock.traceability_operation:stock_traceability_operation.report_stock_traceability_operation_search
 #: field:report.stock.traceability_operation,state:0
 msgid "Status"
-msgstr ""
+msgstr "状态"
 
 #. module: stock_traceability_operation
 #: view:report.stock.traceability_operation:stock_traceability_operation.report_stock_traceability_operation_search
@@ -257,8 +258,8 @@ msgstr ""
 #: help:report.stock.traceability_operation,operation_id:0
 msgid ""
 "The operation on which this part of the traceability is based. When this "
-"field is empty, this part of the traceability is directly based on the Stock"
-" Move."
+"field is empty, this part of the traceability is directly based on the Stock "
+"Move."
 msgstr ""
 
 #. module: stock_traceability_operation

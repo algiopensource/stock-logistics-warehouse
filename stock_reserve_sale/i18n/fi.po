@@ -1,30 +1,41 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * stock_reserve_sale
-# 
+#
 # Translators:
 # Miku Laitinen <miku.laitinen@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: stock-logistics-warehouse (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-08 00:48+0000\n"
-"PO-Revision-Date: 2016-05-27 13:25+0000\n"
+"POT-Creation-Date: 2017-05-30 01:25+0000\n"
+"PO-Revision-Date: 2017-05-30 10:13+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
-"Language-Team: Finnish (http://www.transifex.com/oca/OCA-stock-logistics-warehouse-8-0/language/fi/)\n"
+"Language-Team: Finnish (http://www.transifex.com/oca/OCA-stock-logistics-"
+"warehouse-8-0/language/fi/)\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: stock_reserve_sale
 #: view:sale.stock.reserve:stock_reserve_sale.view_sale_stock_reserve_form
 msgid ""
 "A stock reservation will be created for the products\n"
-"                        of the selected quotation lines. If a validity date is specified,\n"
-"                        the reservation will be released once the date has passed."
-msgstr "Tuotevaraus luodaan valittujen rivien tuotteille.\nJos vapautuspäivä on määritetty, varaus peruutetaan automaattisesti kyseisenä päivänä."
+"                        of the selected quotation lines. If a validity date "
+"is specified,\n"
+"                        the reservation will be released once the date has "
+"passed."
+msgstr ""
+"Tuotevaraus luodaan valittujen rivien tuotteille.\n"
+"Jos vapautuspäivä on määritetty, varaus peruutetaan automaattisesti "
+"kyseisenä päivänä."
+
+#. module: stock_reserve_sale
+#: field:stock.reservation,account_move_line_ids:0
+msgid "Account move line ids"
+msgstr ""
 
 #. module: stock_reserve_sale
 #: code:addons/stock_reserve_sale/model/sale.py:188
@@ -32,7 +43,9 @@ msgstr "Tuotevaraus luodaan valittujen rivien tuotteille.\nJos vapautuspäivä o
 msgid ""
 "As you changed the quantity of the line, the quantity of the stock "
 "reservation will be automatically adjusted to %.2f."
-msgstr "Muuttaessasi rivin kappalemäärää, tuotevarauksen kappalemäärä päivitetään automaattisesti arvoon %.2f."
+msgstr ""
+"Muuttaessasi rivin kappalemäärää, tuotevarauksen kappalemäärä päivitetään "
+"automaattisesti arvoon %.2f."
 
 #. module: stock_reserve_sale
 #: field:sale.order,is_stock_reservable:0
@@ -50,7 +63,7 @@ msgid "Cancel"
 msgstr "Peruuta"
 
 #. module: stock_reserve_sale
-#: code:addons/stock_reserve_sale/model/sale.py:197
+#: code:addons/stock_reserve_sale/model/sale.py:198
 #, python-format
 msgid "Configuration Error!"
 msgstr "Konfiguraatiovirhe."
@@ -76,8 +89,8 @@ msgid "Display Name"
 msgstr "Nimi"
 
 #. module: stock_reserve_sale
-#: code:addons/stock_reserve_sale/model/sale.py:219
-#: code:addons/stock_reserve_sale/model/sale.py:231
+#: code:addons/stock_reserve_sale/model/sale.py:220
+#: code:addons/stock_reserve_sale/model/sale.py:232
 #, python-format
 msgid "Error"
 msgstr "Virhe"
@@ -97,7 +110,9 @@ msgstr "ID"
 msgid ""
 "If a date is given, the reservations will be released at the end of the "
 "validity."
-msgstr "Jos vapautuspäivä on määritetty, varaukset perutaan kyseisenä päivänä automaattisesti."
+msgstr ""
+"Jos vapautuspäivä on määritetty, varaukset perutaan kyseisenä päivänä "
+"automaattisesti."
 
 #. module: stock_reserve_sale
 #: field:sale.stock.reserve,__last_update:0
@@ -192,12 +207,14 @@ msgid "Sales Order Line"
 msgstr "Myyntitilausrivi"
 
 #. module: stock_reserve_sale
-#: code:addons/stock_reserve_sale/model/sale.py:232
+#: code:addons/stock_reserve_sale/model/sale.py:233
 #, python-format
 msgid ""
 "Several stock reservations are linked with the line. Impossible to adjust "
 "their quantity. Please release the reservation before changing the quantity."
-msgstr "Riviin on linkitetty useita tuotevarauksia. Kappalemäärien muokkaaminen ei ole mahdollista. Ole hyvä ja peruuta varaus ennen määrien muokkaamista."
+msgstr ""
+"Riviin on linkitetty useita tuotevarauksia. Kappalemäärien muokkaaminen ei "
+"ole mahdollista. Ole hyvä ja peruuta varaus ennen määrien muokkaamista."
 
 #. module: stock_reserve_sale
 #: field:sale.stock.reserve,location_id:0
@@ -226,12 +243,14 @@ msgid "Validity Date"
 msgstr "Vapautuspäivä"
 
 #. module: stock_reserve_sale
-#: code:addons/stock_reserve_sale/model/sale.py:220
+#: code:addons/stock_reserve_sale/model/sale.py:221
 #, python-format
 msgid ""
 "You cannot change the product or unit of measure of lines with a stock "
 "reservation. Release the reservation before changing the product."
-msgstr "Et voi vaihtaa tuotetta tai tuotteen yksikköä, jos rivillä on tuotevaraus. Peruuta varaus ennen tuotteen vaihtamista."
+msgstr ""
+"Et voi vaihtaa tuotetta tai tuotteen yksikköä, jos rivillä on tuotevaraus. "
+"Peruuta varaus ennen tuotteen vaihtamista."
 
 #. module: stock_reserve_sale
 #: view:sale.order:stock_reserve_sale.view_order_form_reserve
