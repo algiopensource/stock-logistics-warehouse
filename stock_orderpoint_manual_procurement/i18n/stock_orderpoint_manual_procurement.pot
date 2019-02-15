@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
@@ -14,6 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: stock_orderpoint_manual_procurement
+#: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procure_without_security
 #: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procurment_buffer_wizard
 msgid "Cancel"
 msgstr ""
@@ -26,12 +27,6 @@ msgstr ""
 #. module: stock_orderpoint_manual_procurement
 #: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_warehouse_orderpoint_tree
 msgid "Create Procurement"
-msgstr ""
-
-#. module: stock_orderpoint_manual_procurement
-#: code:addons/stock_orderpoint_manual_procurement/wizards/make_procurement_orderpoint.py:59
-#, python-format
-msgid "Created Procurements"
 msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
@@ -53,6 +48,7 @@ msgid "Display Name"
 msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
+#: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procure_without_security
 #: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procurment_buffer_wizard
 msgid "Execute"
 msgstr ""
@@ -65,6 +61,7 @@ msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
 #: model:ir.model.fields,field_description:stock_orderpoint_manual_procurement.field_make_procurement_orderpoint_item_ids
+#: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procure_without_security
 #: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procurment_buffer_wizard
 msgid "Items"
 msgstr ""
@@ -108,23 +105,26 @@ msgid "Minimum Inventory Rule"
 msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
+#: code:addons/stock_orderpoint_manual_procurement/wizards/make_procurement_orderpoint.py:72
+#, python-format
+msgid "No reordering rule found!"
+msgstr ""
+
+#. module: stock_orderpoint_manual_procurement
 #: model:ir.model.fields,field_description:stock_orderpoint_manual_procurement.field_make_procurement_orderpoint_item_date_planned
 msgid "Planned Date"
 msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
 #: model:ir.model.fields,field_description:stock_orderpoint_manual_procurement.field_stock_warehouse_orderpoint_procure_recommended_qty
+#: model:ir.model.fields,field_description:stock_orderpoint_manual_procurement.field_stock_warehouse_orderpoint_template_procure_recommended_qty
 msgid "Procure Recommendation"
 msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
+#: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procure_without_security
 #: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procurment_buffer_wizard
 msgid "Procurement Request"
-msgstr ""
-
-#. module: stock_orderpoint_manual_procurement
-#: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_warehouse_orderpoint_tree
-msgid "Procurements"
 msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
@@ -134,17 +134,19 @@ msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
 #: model:ir.model.fields,field_description:stock_orderpoint_manual_procurement.field_make_procurement_orderpoint_item_qty
+#: model:ir.model.fields,field_description:stock_orderpoint_manual_procurement.field_make_procurement_orderpoint_item_qty_without_security
 msgid "Quantity"
 msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
-#: code:addons/stock_orderpoint_manual_procurement/wizards/make_procurement_orderpoint.py:98
+#: code:addons/stock_orderpoint_manual_procurement/wizards/make_procurement_orderpoint.py:70
 #, python-format
 msgid "Quantity must be positive."
 msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
 #: model:ir.model.fields,field_description:stock_orderpoint_manual_procurement.field_stock_warehouse_orderpoint_procure_recommended_date
+#: model:ir.model.fields,field_description:stock_orderpoint_manual_procurement.field_stock_warehouse_orderpoint_template_procure_recommended_date
 msgid "Recommended Request Date"
 msgstr ""
 
@@ -164,6 +166,7 @@ msgid "Unit of Measure"
 msgstr ""
 
 #. module: stock_orderpoint_manual_procurement
+#: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procure_without_security
 #: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procurment_buffer_wizard
 msgid "Use this assistant to generate a procurement request for this\n"
 "                    stock buffer. According to the product configuration,\n"
@@ -179,10 +182,5 @@ msgstr ""
 #. module: stock_orderpoint_manual_procurement
 #: model:ir.model.fields,field_description:stock_orderpoint_manual_procurement.field_make_procurement_orderpoint_item_wiz_id
 msgid "Wizard"
-msgstr ""
-
-#. module: stock_orderpoint_manual_procurement
-#: model:ir.ui.view,arch_db:stock_orderpoint_manual_procurement.view_make_procurment_buffer_wizard
-msgid "or"
 msgstr ""
 

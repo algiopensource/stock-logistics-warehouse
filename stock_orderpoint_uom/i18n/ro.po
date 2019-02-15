@@ -20,7 +20,7 @@ msgstr ""
 "2:1));\n"
 
 #. module: stock_orderpoint_uom
-#: code:addons/stock_orderpoint_uom/models/product_template.py:22
+#: code:addons/stock_orderpoint_uom/models/product_template.py:21
 #, python-format
 msgid ""
 "At least one reordering rule for this product has a different Procurement "
@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 
 #. module: stock_orderpoint_uom
-#: code:addons/stock_orderpoint_uom/models/stock_warehouse_orderpoint.py:24
+#: code:addons/stock_orderpoint_uom/models/stock_warehouse_orderpoint.py:23
 #, python-format
 msgid ""
 "Error: The product default Unit of Measure and the procurement Unit of "
@@ -41,7 +41,13 @@ msgid "Minimum Inventory Rule"
 msgstr ""
 
 #. module: stock_orderpoint_uom
+#: model:ir.model,name:stock_orderpoint_uom.model_procurement_group
+msgid "Procurement Requisition"
+msgstr ""
+
+#. module: stock_orderpoint_uom
 #: model:ir.model.fields,field_description:stock_orderpoint_uom.field_stock_warehouse_orderpoint_procure_uom_id
+#: model:ir.model.fields,field_description:stock_orderpoint_uom.field_stock_warehouse_orderpoint_template_procure_uom_id
 msgid "Procurement UoM"
 msgstr ""
 

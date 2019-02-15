@@ -20,27 +20,21 @@ msgstr ""
 "2:1));\n"
 
 #. module: stock_mts_mto_rule
-#: code:addons/stock_mts_mto_rule/model/warehouse.py:36
+#: code:addons/stock_mts_mto_rule/model/stock_warehouse.py:35
 #, python-format
 msgid "Can't find MTO Rule on the warehouse"
 msgstr ""
 
 #. module: stock_mts_mto_rule
-#: code:addons/stock_mts_mto_rule/model/warehouse.py:43
+#: code:addons/stock_mts_mto_rule/model/stock_warehouse.py:42
 #, python-format
 msgid "Can't find MTS Rule on the warehouse"
 msgstr ""
 
 #. module: stock_mts_mto_rule
-#: code:addons/stock_mts_mto_rule/model/warehouse.py:32
+#: code:addons/stock_mts_mto_rule/model/stock_warehouse.py:31
 #, python-format
 msgid "Can't find any generic MTS+MTO route."
-msgstr ""
-
-#. module: stock_mts_mto_rule
-#: code:addons/stock_mts_mto_rule/model/rule.py:18
-#, python-format
-msgid "Choose between MTS and MTO"
 msgstr ""
 
 #. module: stock_mts_mto_rule
@@ -49,6 +43,14 @@ msgid ""
 "If this new route is selected on product form view, a purchase order will be "
 "created only if the virtual stock is less than 0 else, the product will be "
 "taken from stocks"
+msgstr ""
+
+#. module: stock_mts_mto_rule
+#: code:addons/stock_mts_mto_rule/model/procurement_rule.py:27
+#, python-format
+msgid ""
+"Inconsistency between the source locations of the mts and mto rules linked "
+"to the procurement rule: %s! It should be the same."
 msgstr ""
 
 #. module: stock_mts_mto_rule
@@ -67,7 +69,7 @@ msgid "MTS Rule"
 msgstr ""
 
 #. module: stock_mts_mto_rule
-#: code:addons/stock_mts_mto_rule/model/warehouse.py:143
+#: code:addons/stock_mts_mto_rule/model/stock_warehouse.py:118
 #, python-format
 msgid "MTS+MTO"
 msgstr ""
@@ -78,23 +80,14 @@ msgid "Make To Order + Make To Stock"
 msgstr ""
 
 #. module: stock_mts_mto_rule
-#: model:ir.model.fields,field_description:stock_mts_mto_rule.field_procurement_order_mts_mto_procurement_id
-msgid "Mto+Mts Procurement"
+#: code:addons/stock_mts_mto_rule/model/procurement_rule.py:22
+#, python-format
+msgid "No MTS or MTO rule configured on procurement rule: %s!"
 msgstr ""
-
-#. module: stock_mts_mto_rule
-#: model:ir.model,name:stock_mts_mto_rule.model_procurement_order
-msgid "Procurement"
-msgstr "Aprovizionare"
 
 #. module: stock_mts_mto_rule
 #: model:ir.model,name:stock_mts_mto_rule.model_procurement_rule
 msgid "Procurement Rule"
-msgstr ""
-
-#. module: stock_mts_mto_rule
-#: model:ir.model.fields,field_description:stock_mts_mto_rule.field_procurement_order_mts_mto_procurement_ids
-msgid "Procurements"
 msgstr ""
 
 #. module: stock_mts_mto_rule
@@ -106,3 +99,6 @@ msgstr ""
 #: model:ir.model,name:stock_mts_mto_rule.model_stock_warehouse
 msgid "Warehouse"
 msgstr ""
+
+#~ msgid "Procurement"
+#~ msgstr "Aprovizionare"

@@ -1,4 +1,6 @@
-server-tools
-stock-logistics-tracking
-stock-logistics-barcode
+# list the OCA project dependencies, one per line
+# add a github url if you need a forked version
+purchase-workflow
 web
+server-ux
+account-analytic

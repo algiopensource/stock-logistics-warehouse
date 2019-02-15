@@ -20,28 +20,22 @@ msgstr ""
 "%100==4 ? 2 : 3);\n"
 
 #. module: stock_mts_mto_rule
-#: code:addons/stock_mts_mto_rule/model/warehouse.py:36
+#: code:addons/stock_mts_mto_rule/model/stock_warehouse.py:35
 #, python-format
 msgid "Can't find MTO Rule on the warehouse"
 msgstr "Za skladišče ni pravila 'po naročilu'"
 
 #. module: stock_mts_mto_rule
-#: code:addons/stock_mts_mto_rule/model/warehouse.py:43
+#: code:addons/stock_mts_mto_rule/model/stock_warehouse.py:42
 #, python-format
 msgid "Can't find MTS Rule on the warehouse"
 msgstr "Za skladišče ni pravila 'na zalogo'"
 
 #. module: stock_mts_mto_rule
-#: code:addons/stock_mts_mto_rule/model/warehouse.py:32
+#: code:addons/stock_mts_mto_rule/model/stock_warehouse.py:31
 #, python-format
 msgid "Can't find any generic MTS+MTO route."
 msgstr "Ni generične proge 'na zalogo' + 'po naročilu'"
-
-#. module: stock_mts_mto_rule
-#: code:addons/stock_mts_mto_rule/model/rule.py:18
-#, python-format
-msgid "Choose between MTS and MTO"
-msgstr "Izbira med 'Na zalogo' in 'Po naročilu'"
 
 #. module: stock_mts_mto_rule
 #: model:ir.model.fields,help:stock_mts_mto_rule.field_stock_warehouse_mto_mts_management
@@ -53,6 +47,14 @@ msgstr ""
 "Če je na prikazu obrazca proizvoda izbrana ta proga, se nabavni nalog "
 "ustvari le, če je navidezna zaloga manj od 0. V nasprotnem primeru se "
 "proizvod vzame iz zaloge."
+
+#. module: stock_mts_mto_rule
+#: code:addons/stock_mts_mto_rule/model/procurement_rule.py:27
+#, python-format
+msgid ""
+"Inconsistency between the source locations of the mts and mto rules linked "
+"to the procurement rule: %s! It should be the same."
+msgstr ""
 
 #. module: stock_mts_mto_rule
 #: model:ir.model.fields,field_description:stock_mts_mto_rule.field_procurement_rule_mto_rule_id
@@ -70,7 +72,7 @@ msgid "MTS Rule"
 msgstr "Pravilo 'Na zalogo'"
 
 #. module: stock_mts_mto_rule
-#: code:addons/stock_mts_mto_rule/model/warehouse.py:143
+#: code:addons/stock_mts_mto_rule/model/stock_warehouse.py:118
 #, python-format
 msgid "MTS+MTO"
 msgstr "Na zalogo + Po naročilu"
@@ -81,24 +83,15 @@ msgid "Make To Order + Make To Stock"
 msgstr "Naredi po naročilu + Naredi na zalogo"
 
 #. module: stock_mts_mto_rule
-#: model:ir.model.fields,field_description:stock_mts_mto_rule.field_procurement_order_mts_mto_procurement_id
-msgid "Mto+Mts Procurement"
-msgstr "Oskrbovanja 'po naročilu'+'na zalogo'"
-
-#. module: stock_mts_mto_rule
-#: model:ir.model,name:stock_mts_mto_rule.model_procurement_order
-msgid "Procurement"
-msgstr "Oskrbovanje"
+#: code:addons/stock_mts_mto_rule/model/procurement_rule.py:22
+#, python-format
+msgid "No MTS or MTO rule configured on procurement rule: %s!"
+msgstr ""
 
 #. module: stock_mts_mto_rule
 #: model:ir.model,name:stock_mts_mto_rule.model_procurement_rule
 msgid "Procurement Rule"
 msgstr "Oskrbovalno pravilo"
-
-#. module: stock_mts_mto_rule
-#: model:ir.model.fields,field_description:stock_mts_mto_rule.field_procurement_order_mts_mto_procurement_ids
-msgid "Procurements"
-msgstr "Oskrbovanja"
 
 #. module: stock_mts_mto_rule
 #: model:ir.model.fields,field_description:stock_mts_mto_rule.field_stock_warehouse_mto_mts_management
@@ -109,3 +102,15 @@ msgstr "Uporabi pravila Po naročilu + Na zalogo"
 #: model:ir.model,name:stock_mts_mto_rule.model_stock_warehouse
 msgid "Warehouse"
 msgstr "Skladišče"
+
+#~ msgid "Choose between MTS and MTO"
+#~ msgstr "Izbira med 'Na zalogo' in 'Po naročilu'"
+
+#~ msgid "Mto+Mts Procurement"
+#~ msgstr "Oskrbovanja 'po naročilu'+'na zalogo'"
+
+#~ msgid "Procurement"
+#~ msgstr "Oskrbovanje"
+
+#~ msgid "Procurements"
+#~ msgstr "Oskrbovanja"

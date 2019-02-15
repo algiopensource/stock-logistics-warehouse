@@ -20,7 +20,7 @@ Configuration
 
 By default, this module computes the stock available to promise as the virtual
 stock.
-To take advantage of the additional features, you must which information you
+To take advantage of the additional features, you must define on which information you
 want to base the computation, by checking one or more boxes in the settings:
 `Inventory` > `Configuration` > `Settings` > `Stock available to promise`.
 In case of "Include the production potential", it is also possible to configure
@@ -35,7 +35,7 @@ chose to base the computation on.
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/153/10.0
+   :target: https://runbot.odoo-community.org/runbot/153/11.0
 
 Bug Tracker
 ===========
@@ -58,7 +58,7 @@ Contributors
 
 * Lionel Sausin (Numérigraphe) <ls@numerigraphe.com>
 * Sodexis <sodexis@sodexis.com>
-* Cédric Pigeon <cedric.pigeon@acsone.eu>
+* Factor Libre - Kiko Peiro <francisco.peiro@factorlibre.com>
 
 Maintainer
 ----------

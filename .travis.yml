@@ -2,13 +2,12 @@
 
 language: python
 python:
-    - "2.7"
+    - "3.5"
 
 sudo: false
 cache: pip
 
 addons:
-  postgresql: "9.2" # minimal postgresql version for the daterange method
   apt:
     packages:
       - expect-dev  # provides unbuffer utility
@@ -16,17 +15,15 @@ addons:
 
 env:
   global:
-  - VERSION="10.0" TESTS="0" LINT_CHECK="0"
+  - VERSION="11.0" TESTS="0" LINT_CHECK="0"
   - TRANSIFEX_USER='transbot@odoo-community.org'
   - secure: tDsvZaY3JqmnjgyRuKkgQRtlRILkkjnHtZPWWaGg+KBD+BBH4AqX5ACTyu5U/J6Kr/Yb5NIoM3+NYRuASdGXnJb9siZvh/9B58B1wKUbC2umH4Yrpw66CEvG9JY4XMOCZni9kQBwQ7iMk5GfusDWuVuydZjd6dAqkCxz6JdkIco=
   matrix:
   - LINT_CHECK="1"
   - TRANSIFEX="1"
-  - TESTS=1 ODOO_REPO="odoo/odoo" LINT_CHECK="0"
   - TESTS=1 ODOO_REPO="OCA/OCB" LINT_CHECK="0"
+  - TESTS=1 ODOO_REPO="odoo/odoo" LINT_CHECK="0"
 
-virtualenv:
-  system_site_packages: true
 
 install:
   - git clone https://github.com/OCA/maintainer-quality-tools.git ${HOME}/maintainer-quality-tools

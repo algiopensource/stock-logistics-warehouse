@@ -1,12 +1,13 @@
-# -*- coding: utf-8 -*-
 # Copyright 2015 Mikel Arregi - AvanzOSC
-# Copyright 2016 Tecnativa - Pedro M. Baeza
 # Copyright 2017 Eficent - Jordi Ballester
+# Copyright 2018 Fanha Giang
+# Copyright 2018 Tecnativa - Vicent Cubells
+# Copyright 2016-2018 Tecnativa - Pedro M. Baeza
 # License AGPL-3 - See http://www.gnu.org/licenses/agpl-3.0.html
 
 {
     "name": "Stock - Manual Quant Assignment",
-    "version": "10.0.1.0.0",
+    "version": "11.0.1.0.0",
     "category": "Warehouse Management",
     "license": "AGPL-3",
     "author": "AvanzOSC, "
